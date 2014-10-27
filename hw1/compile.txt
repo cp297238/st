@@ -1,0 +1,2 @@
+g++ -isystem /Users/huangty/src/gtest-1.7.0/include -pthread ./main.cpp /Users/huangty/src/gtest-1.7.0/libgtest.a -o test
+g++ -isystem ./include -pthread ./com.cpp ./libgtest.a -o com
